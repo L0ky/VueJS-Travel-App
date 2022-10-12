@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.vue-school-active-class {
+    @apply text-blue-400
+}
+
+body {
+    @apply bg-neutral-800 h-screen text-white
+}
+
+/* .slide-enter-active,
+.slide-leave-active {
+    transition: opacity 0.5s, transform 0.5s;
+}
+.slide-enter,
+.slide-leave-to {
+    opacity: 0;
+    transform: translateX(-30%);
+} */
+
+.fade-enter-active,
+.fade-leave-active{
+    transition: opacity 0.3s;
+}
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+}
